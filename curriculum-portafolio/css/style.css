@@ -1,0 +1,36 @@
+/*navbar*/
+.nav {
+    padding: 2rem;
+    background-color: #f5f6f7;
+}
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+/*reponsive*/
+@media screen and (max-width:767px) {
+    .navbar-brand {
+        display: none;
+    }
+}
+/*general customs*/
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1 {
+    font-size: 2.5rem;
+}
+/* section hero */
+#hero {
+    background-color: #f5f6f7;
+    min-height: 450px;
+    text-align: center;
+    font-family: 'Rubik Dirt', cursive;
+    background-image: url("../img/wt8.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+}

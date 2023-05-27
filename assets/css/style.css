@@ -21,16 +21,21 @@ section {
     justify-content: center;
 }
 h1 {
+    font-family: 'Rubik Dirt', cursive;
     font-size: 2.5rem;
 }
 /* section hero */
 #hero {
-    background-color: #f5f6f7;
     min-height: 450px;
     text-align: center;
-    font-family: 'Rubik Dirt', cursive;
     background-image: url("../img/wt2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left;
+}
+h2 {
+    font-family: 'Rubik Dirt', cursive;
+}
+h3 {
+    font-family: 'Rubik Dirt', cursive;
 }
